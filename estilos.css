@@ -1,3 +1,38 @@
-h1{
-    color: blue;
+header{
+    background-color: #66CDAA;
+    min-height: 80px;
+    margin-top: 15px;
+    overflow: hidden;
+    border-bottom:blue 3px solid;
+}
+.contenedor-flex-1{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor-flex-1 ul{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.contenedor-flex-1 li{
+    list-style: none;
+    padding-right: 20px;
+     }
+.banner{
+        
+        display: flex;
+        flex-direction: column;
+        position: relative;
+}
+
+.fotoPerfil{
+  
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+    bottom: 200%;
+    top: 60%;
+    left: 3%;
+    position: absolute;
 }
