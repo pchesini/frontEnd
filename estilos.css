@@ -53,7 +53,7 @@ html{
     margin-right: 0,5px;
 }
 
-.banner{
+#banner{
         
         display: flex;
         flex-direction: column;
